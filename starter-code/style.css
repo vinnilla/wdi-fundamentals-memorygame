@@ -1,3 +1,72 @@
-/* This is a multi-line
-comment. Add your CSS code
-from Unit 1 - 5 below  */
+.board {
+	height: 50%;
+	width: 50%;
+	display: inline-block;
+}
+
+.card {
+	height: 200px;
+	width: 150px;
+	border: solid black 1px;
+	border-radius: 10px;
+	background-color: yellow;
+	float: left;
+	margin: 8%;
+}
+
+h1 {
+	color: rgb(2, 132, 130);
+}
+
+h2 {
+	color: #ffd700;
+}
+
+.name {
+	color: #ff0000;
+}
+
+#line {
+	height: 2px;
+	width: 100%;
+	background-color: black;
+	margin-top: 10px;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	background-color: #ffbf00;
+	padding: 35px;
+	display: block;
+	float: left;
+}
+
+nav a:hover {
+	background-color: #ee5f3c;
+}
+
+nav {
+	background-color: #808080;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+footer {
+	background-color: #808080;
+}
+
+header, footer, p, h1, h2 {
+	text-align: center;
+}
+
+#game {
+	width: 630px;
+}
